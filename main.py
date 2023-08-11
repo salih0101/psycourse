@@ -197,7 +197,7 @@ async def main_menu(message):
         return
 
 
-    photo_path = 'List_of_courses/course_photo.jpg'
+    photo_path = 'List_of_courses/course_photo.png'
 
     if user_answer == "📝Оплата за курс":
         await message.answer("Чтобы оплатить за курс нажмите кнопку 'Оплатить 💳💰'",
@@ -263,7 +263,7 @@ async def main_menu(message):
                              reply_markup=uzbtns.uz_main_menu_kb(), parse_mode="HTML")
         return
 
-    photo_path = 'List_of_courses/course_photo.jpg'
+    photo_path = 'List_of_courses/course_photo.png'
 
     if user_answer == "📝Kurs uchun to'lov":
         await message.answer("Kurs uchun to'lovni amalga oshirish uchun 'To'lov 💳💰 tugmasini bosing'",
