@@ -63,7 +63,7 @@ def info_course():
 def get_youtube():
     kb = InlineKeyboardMarkup(row_width=1)
     cont = InlineKeyboardButton(text='Перейти в YouTube 🎥👉',
-                                url='https://www.youtube.com/channel/UCY9jGnDyqNCUUktm2ry-SFw')
+                                url='https://youtu.be/qranD_Dx8aM')
 
     kb.add(cont)
 
@@ -133,7 +133,7 @@ def day_five_yes():
 def day_three_video():
     kb = InlineKeyboardMarkup(row_width=1)
     three = InlineKeyboardButton(text='Перейти в YouTube! 🎥👉',
-                                 url='https://www.youtube.com/channel/UCY9jGnDyqNCUUktm2ry-SFw')
+                                 url='https://youtu.be/ZGqZs_VX_rk')
 
     kb.add(three)
 
@@ -143,7 +143,7 @@ def day_three_video():
 def day_five_video():
     kb = InlineKeyboardMarkup(row_width=1)
     five = InlineKeyboardButton(text='Перейти в YouTube! 🎥👉',
-                                url='https://www.youtube.com/channel/UCY9jGnDyqNCUUktm2ry-SFw')
+                                url='https://youtu.be/PWzTlZXTuLI')
 
     kb.add(five)
 
