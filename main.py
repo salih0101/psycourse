@@ -560,6 +560,8 @@ async def course_fivedays(call: types.CallbackQuery):
             await bot.send_chat_action(chat_id=user_id, action=types.ChatActions.TYPING)
             await asyncio.sleep(3)
             await bot.send_message(call.from_user.id, day_five_text)
+            await asyncio.sleep(5)
+            await bot.send_message(call.from_user.id, discount_text)
 
         else:
             await bot.send_message(call.from_user.id, 'Курс еще не закончен. Пожалуйста, заверши предыдущие дни. 📚🔒')
@@ -830,6 +832,8 @@ async def course_fivedays(call: types.CallbackQuery):
             await bot.send_chat_action(chat_id=user_id, action=types.ChatActions.TYPING)
             await asyncio.sleep(3)
             await bot.send_message(call.from_user.id, day_five_text_uz)
+            await asyncio.sleep(5)
+            await bot.send_message(call.from_user.id, discount_text_uz)
 
         else:
             await bot.send_message(call.from_user.id, 'Kurs hali tugamagan. Iltimos, oldingi kunlarni yakunlang. 📚🔒')
@@ -845,7 +849,7 @@ async def course_fivedays(call: types.CallbackQuery):
         await bot.send_message(call.from_user.id, day_three_no_message_uz)
         await bot.send_chat_action(chat_id=user_id, action=types.ChatActions.TYPING)
         await asyncio.sleep(3)
-        await bot.send_message(call.from_user.id, 'Сообщения от бота со скидкой на курс')
+        await bot.send_message(call.from_user.id, discount_text_uz)
 
 
 # ----------------------------------------------------------------------

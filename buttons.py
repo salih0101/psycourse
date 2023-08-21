@@ -22,11 +22,11 @@ def trial_time_kb():
 
 def main_menu_kb():
     kb = ReplyKeyboardMarkup(resize_keyboard=True, row_width=1)
-    set_subscribe = KeyboardButton('📝Оплата за курс')
+    #set_subscribe = KeyboardButton('📝Оплата за курс')
     profile = KeyboardButton('⚙️НАСТРОЙКА')
     courses = KeyboardButton('📚КУРСЫ')
 
-    kb.add(courses, set_subscribe, profile)
+    kb.add(courses, profile)
 
     return kb
 
@@ -51,10 +51,3 @@ def change_data_kb():
     return kb
 
 
-def course_order_kb():
-    kb = ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
-    set_subscribe = KeyboardButton('📝ОФОРМИТЬ ПОДПИСКУ')
-
-    kb.add(set_subscribe)
-
-    return kb
