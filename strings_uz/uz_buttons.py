@@ -16,7 +16,7 @@ def uz_main_menu_kb():
     profile = KeyboardButton('⚙️Sozlamalar')
     courses = KeyboardButton('📚Kurslar')
 
-    kb.add(courses, set_subscribe, profile)
+    kb.add(courses, profile)
 
     return kb
 
